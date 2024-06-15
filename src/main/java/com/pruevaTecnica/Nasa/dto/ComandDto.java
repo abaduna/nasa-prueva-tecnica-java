@@ -6,5 +6,6 @@ import java.util.List;
 
 @Data
 public class ComandDto {
-    List<String> comands;
+    String direction;
+
 }
