@@ -17,10 +17,7 @@ public class ObstacleController {
     @Autowired
    private ObstacleService ObstacleService;
 
-    @PostMapping("api/obstacle/")
-    public void create(@RequestBody ObstacleDto obstacle){
-        ObstacleService.create();
-    }
+
     @GetMapping("api/obstacle/")
     public List<Obstacle> get(){
        return ObstacleService.get();

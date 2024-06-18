@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface ObstacleService {
     public List<Obstacle> get();
-    public void create();
+
 }

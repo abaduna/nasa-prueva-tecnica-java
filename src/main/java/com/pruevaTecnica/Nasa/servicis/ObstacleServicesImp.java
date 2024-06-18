@@ -1,5 +1,6 @@
 package com.pruevaTecnica.Nasa.servicis;
 
+import com.pruevaTecnica.Nasa.dto.ObstacleDto;
 import com.pruevaTecnica.Nasa.models.Obstacle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,8 +19,5 @@ public class ObstacleServicesImp implements ObstacleService {
        return ObstacleRepository.findAll();
     }
 
-    @Override
-    public void create() {
-        return;
-    }
+
 }
